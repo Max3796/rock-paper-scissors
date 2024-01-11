@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="score">
+        <div>
+            <h1 class="font" id="score1">0</h1>
+        </div>
+        <div>
+            <h1 class="font">-</h1>
+        </div>
+        <div>
+            <h1 class="font" id="score2">0</h1>
+        </div>
+    </nav>
+    <div id="gamePlatform">
+        <div id="you">
+            <h1 class="player">You</h1>
+            <div id="player1">
+                <img id="ply1" src="" alt="">
+            </div>
+            <div class="btns">
+                <img id="rock" src="./assets/rock-logo.png" alt="" width="90">
+                <img id="paper" src="./assets/paper-logo.png" alt="" width="90">
+                <img id="scissors" src="./assets/scissors-logo.png" alt="" width="90">
+            </div>
+        </div>
+        <div>
+            <img src="./assets/vs.png" alt="" height="500">
+        </div>
+        <div id="comp">
+            <h1 class="player">Comp</h1>
+            <div id="player2">
+                <img id="ply2" src="" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <h1 id="declare"></h1> <br>
+        <button id="again">Play again</button>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
